@@ -1,0 +1,20 @@
+public class DigitCntr {
+
+    public static void main(String[] args) {
+
+        int number = 12345876;
+
+        int count = 0;
+
+        while(number != 0)
+        {
+            number = number / 10;
+            count++;
+        }
+
+        System.out.println("Total digits = " + count);
+
+    }
+}
+    
+
